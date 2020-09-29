@@ -1,0 +1,124 @@
+
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left; /* If you want the text to be left-aligned on small screens */
+    }
+  
+  }
+  
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:black;
+    color: white;
+  }
+  .fa{
+    font-size:small;
+
+ }
+  .fa-facebook {
+    color: skyblue;
+
+  }
+  .fa-instagram {
+    color: yellow;
+  }
+  .fa-linkedin {
+    color: blue;
+  }
+  .fa-twitter {
+    color: darkcyan;
+  }
+  .fa-youtube {
+    color: red;
+  }
+  .fa-github {
+    color: red;
+  }
+
+  .fa-phone {
+    font-size: large;
+    color: blue;
+  }
+  .fa-home {
+    color: blue;
+    font-size: x-large;
+  }
+  .multi-column {
+    column-width: 3cm;
+    -moz-column-count: 2;
+    -moz-column-gap: 1px;
+    -moz-column-fill: auto;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 1px;
+    -webkit-column-fill: auto;
+    column-count: 2;
+    column-gap: 1px;
+    column-fill: auto;
+ }
+ body {
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
